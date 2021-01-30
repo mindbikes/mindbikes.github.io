@@ -4,9 +4,15 @@
   </script>
 
   <body>
-    <form id="repl" oninput="out.value=repl(inp.value)">
-      <input id="inp" name="inp" type="text">
-      <output name="out" for="exp"></output>
-    </form>
+    <h1>Mind Bikes</h1>
+    <p>simple mechanical parts for thought assembly</p>
+    <article>
+      <h2>The easy HTML REPL</h2>
+      <p>Using simple HTML shown at <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/output#examples">MDN</a> we can build an easy REPL linked to a JavaScript function similar to <code>parseInt()</code> in the MDN demo.</p>
+      <form id="repl" oninput="out.value=repl(inp.value)">
+	<input id="inp" name="inp" type="text">
+	<output name="out" for="exp"></output>
+      </form>
+    </article>
   </body>
 </html>
