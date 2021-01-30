@@ -9,18 +9,41 @@
       max-width: 34rem;
       margin: 0 auto;
     }
+    h1 { margin-bottom: .2rem; }
+    h1 + p { margin-top: 0; }
   </style>
 
   <body>
     <h1>Mind Bikes</h1>
     <p>mechanical parts for the assemblage of thoughts</p>
+
     <article>
       <h2>The easy HTML REPL</h2>
+
       <p>Using simple HTML shown at <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/output#examples">MDN</a> we can build an easy REPL linked to a JavaScript function similar to <code>parseInt()</code> in the MDN demo.</p>
+
       <form id="repl" oninput="out.value=repl(inp.value)">
 	<input id="inp" name="inp" type="text">
 	<output name="out" for="exp"></output>
       </form>
+    </article>
+
+    <article>
+      <h2>A JavaScript Term Rewriting System</h2>
+      
+      <p>In a lost project Brian Beckman build a Mathematica style TRS and evaluation system in the browser. We are going to revive the ideas and present <code>rwr</code> the world's cutest JavaScript Term Rewriting System.</p>
+    </article>
+
+    <article>
+      <h2>Build your own Vimium</h2>
+
+      <p>Is there a minimal UI for the web we can extract from Vimium? Scroll, jump, and input focus are the killer features, VIM style text manipulation is out of scope because of the complexity there, thought that would be an interesting separate project.</p>
+    </article>
+
+    <article>
+      <h2>Programming in Martin Lof's Type Theory</h2>
+
+      <p>An interactive adaption of a classic book on programming using a direct translation of Martin Lof's full dependent type theory. Features a natural deduction interface.</p>
     </article>
   </body>
 </html>
