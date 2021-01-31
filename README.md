@@ -2,8 +2,10 @@
 mind bikes content
 ## Propsoals
 
-* structured editing https://github.com/lamdu/lamdu
+### Structured editing
 
+* structured editing https://github.com/lamdu/lamdu
+* hazel https://arxiv.org/pdf/1703.08694.pdf
 ```
     <article>
       <h2>Algebriac Effects as Dependent Types</h2>
