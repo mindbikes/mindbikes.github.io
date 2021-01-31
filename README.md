@@ -2,6 +2,10 @@
 mind bikes content
 ## Propsoals
 
+## Type checking machine
+
+* From Type Checking by Recursive Descent to Type Checking with an Abstract Machine https://ilyasergey.net/assets/pdf/papers/type-eval-ldta11.pdf
+
 ### Structured editing
 
 * structured editing https://github.com/lamdu/lamdu
