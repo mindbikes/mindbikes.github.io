@@ -12,7 +12,7 @@ mind bikes content
 * existential graphs http://www.jfsowa.com/peirce/ms514.htm
 * proof nets https://arxiv.org/pdf/1203.4912.pdf
 * from proof nets to interaction nets https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.51.2755&rep=rep1&type=pdf
-* Proofs Without Syntax
+* Proofs Without Syntax http://boole.stanford.edu/~dominic/papers/
 
 ## Dependence in programming
 
