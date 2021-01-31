@@ -10,6 +10,7 @@ mind bikes content
 ### Visualizing Logic
 
 * existential graphs http://www.jfsowa.com/peirce/ms514.htm
+* proof nets https://arxiv.org/pdf/1203.4912.pdf
 
 ## Dependence in programming
 
