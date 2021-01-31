@@ -22,6 +22,10 @@ mind bikes content
 
 * Semantic Code Search via Equational Reasoning http://www.jameskoppel.com/files/papers/yogo.pdf
 
+## Build Locus Solum
+
+* it's weird https://nguyentito.eu/locus-solum-mscs.pdf
+
 ## Dump
 
 ```
