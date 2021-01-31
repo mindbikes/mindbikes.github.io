@@ -11,6 +11,14 @@ mind bikes content
 
 * existential graphs http://www.jfsowa.com/peirce/ms514.htm
 
+## Dependence in programming
+
+* Demystifying Dependence http://www.jameskoppel.com/files/papers/demystifying_dependence.pdf
+
+## Equational Reasoning
+
+* Semantic Code Search via Equational Reasoning http://www.jameskoppel.com/files/papers/yogo.pdf
+
 ## Dump
 
 ```
