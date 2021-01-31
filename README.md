@@ -6,6 +6,13 @@ mind bikes content
 
 * structured editing https://github.com/lamdu/lamdu
 * hazel https://arxiv.org/pdf/1703.08694.pdf
+
+### Visualizing Logic
+
+* existential graphs http://www.jfsowa.com/peirce/ms514.htm
+
+## Dump
+
 ```
     <article>
       <h2>Algebriac Effects as Dependent Types</h2>
