@@ -1,6 +1,6 @@
 <html>
   <script>
-    const repl = (text) => text
+    const repl = (text) => text.split("").reverse().join("")
   </script>
 
   <style>
@@ -16,16 +16,23 @@
 
   <body>
     <h1>Mind Bikes</h1>
-    <p>mechanical parts for the assemblage of thoughts</p>
+    <p>an interactive exploration of computation</p>
     
     <article>
       <h2>An easy HTML REPL</h2>
 
       <p>Using simple HTML shown at <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/output#examples">MDN</a> we can build an easy REPL linked to a JavaScript function similar to <code>parseInt()</code> in the MDN demo.</p>
 
-      <form id="repl" oninput="out.value=repl(inp.value)">
-	<input id="inp" name="inp" type="text">
-	<output name="out" for="exp"></output>
+      <form oninput="out.value=repl(inp.value)">
+	<input name="inp" type="text">
+	<output name="out"></output>
+      </form>
+      
+      <p>These REPLs have separate state</p>
+
+      <form oninput="out.value=repl(inp.value)">
+	<input name="inp" type="text">
+	<output name="out"></output>
       </form>
     </article>
   </body>
